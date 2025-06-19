@@ -452,4 +452,13 @@ footer li {
   width: 200px;
   height: auto;
 }
+ .offcanvas.offcanvas-end {
+  left: auto !important;
+  right: 0 !important;
+  transform: translateX(100%);
+}
+.offcanvas.offcanvas-end.show {
+  transform: translateX(0);
+}
+
 }
