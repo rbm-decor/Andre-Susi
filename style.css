@@ -431,8 +431,11 @@ footer li {
   }
   .mynavbar .navbar-brand, .mynavbar .offcanvas-title {
   font-family: 'Sacramento', cursive;
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: bold;
+}
+    .mynavbar .nav-link {
+  font-size: 2rem;
 }
   .timeline li .timeline-image {
     width: 80px;
