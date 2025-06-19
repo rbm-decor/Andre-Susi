@@ -428,21 +428,20 @@ footer li {
     font-size: 1rem;
   }
 
-  .mynavbar .offcanvas {
-    height: 100vh;
-    width: 50vh;
-  }
-
-  .mynavbar .navbar-brand,
+  ..mynavbar .navbar-brand,
   .mynavbar .offcanvas-title {
     font-family: 'Sacramento', cursive;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: bold;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 70%;           /* tambahkan ini */
-    display: inline-block;    /* tambahkan ini */
+    max-width: 60vw;        /* Batas lebar maksimum */
+    display: inline-block;
+  }
+
+  .mynavbar .offcanvas {
+    width: 100vw; /* buat lebih lebar agar tidak kepotong */
   }
 
   .mynavbar .nav-link {
