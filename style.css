@@ -434,9 +434,15 @@ footer li {
   font-size: 1.5rem;
   font-weight: bold;
 }
-    .mynavbar .nav-link {
-  font-size: 2rem;
-}
+    .offcanvas {
+    width: 80% !important;
+    }
+    .offcanvas .offcanvas-title {
+    font-size: 1.5rem; 
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
   .timeline li .timeline-image {
     width: 80px;
     height: 80px;
