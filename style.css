@@ -427,11 +427,11 @@ footer li {
     font-size: 1rem;
   }
   .mynavbar .offcanvas {
-    width: 35vh;
+    width: 40vh;
   }
   .mynavbar .navbar-brand, .mynavbar .offcanvas-title {
   font-family: 'Sacramento', cursive;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
 }
   .timeline li .timeline-image {
@@ -452,13 +452,4 @@ footer li {
   width: 200px;
   height: auto;
 }
- .offcanvas.offcanvas-end {
-  left: auto !important;
-  right: 0 !important;
-  transform: translateX(100%);
-}
-.offcanvas.offcanvas-end.show {
-  transform: translateX(0);
-}
-
 }
